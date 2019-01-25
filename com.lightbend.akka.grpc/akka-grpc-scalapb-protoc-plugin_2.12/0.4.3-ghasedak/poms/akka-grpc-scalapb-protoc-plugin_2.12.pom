@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.lightbend.akka.grpc</groupId>
+    <artifactId>akka-grpc-scalapb-protoc-plugin_2.12</artifactId>
+    <packaging>jar</packaging>
+    <description>akka-grpc-scalapb-protoc-plugin</description>
+    <url>https://developer.lightbend.com/docs/akka-grpc/current/</url>
+    <version>0.4.3-ghasedak</version>
+    <licenses>
+        <license>
+            <name>Apache-2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <name>akka-grpc-scalapb-protoc-plugin</name>
+    <organization>
+        <name>com.lightbend.akka.grpc</name>
+        <url>https://developer.lightbend.com/docs/akka-grpc/current/</url>
+    </organization>
+    <scm>
+        <url>https://github.com/akka/akka-grpc</url>
+        <connection>git@github.com:akka/akka-grpc</connection>
+    </scm>
+    <developers>
+        <developer>
+            <id>contributors</id>
+            <name>Contributors</name>
+            <email>https://gitter.im/akka/dev</email>
+            <url>https://github.com/akka/akka-grpc/graphs/contributors</url>
+        </developer>
+    </developers>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.12.7</version>
+        </dependency>
+        <dependency>
+            <groupId>com.lightbend.akka.grpc</groupId>
+            <artifactId>akka-grpc-codegen_2.12</artifactId>
+            <version>0.4.3-ghasedak</version>
+        </dependency>
+    </dependencies>
+</project>
